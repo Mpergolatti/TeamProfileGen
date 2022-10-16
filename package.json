@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "name": "teamprofilegen",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mpergolatti/TeamProfileGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mpergolatti/TeamProfileGen/issues"
+  },
+  "homepage": "https://github.com/Mpergolatti/TeamProfileGen#readme"
+}
