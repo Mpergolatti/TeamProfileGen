@@ -54,6 +54,10 @@
   Visit the repo given for cloning
   
 ---
+
+## Video Link:
+  https://drive.google.com/file/d/1fqVhXAkDjp5TEQmN4xNjDseWoYzyk8uZ/view
+
 ## Questions and Comments:
 * GitHub Username: Mpergolatti
 * GitHub Email: Mpergolatti@gmail.com
