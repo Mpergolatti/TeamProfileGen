@@ -1,4 +1,4 @@
-const generateHTML = require('./lib/generateHTML');
+const generateHTML = require('./src/generateHTML');
 
 // employee profiles
 const Manager = require('./lib/Manager');
@@ -51,6 +51,7 @@ const addManager = () => {
   })
 };
 
+// Add employee information
 const addEmployee = () => {
   console.log(`
   |*******************|
@@ -112,6 +113,7 @@ const addEmployee = () => {
     }
   ])
 
+  // Employee Data Type Information
   .then(employeeData => {
     let { name, id, email, role, github, school, confirmAddEmployee } = employeeData;
     let employee;
@@ -139,6 +141,7 @@ const addEmployee = () => {
 
 };
 
+// Generates HTML using fs
 const writeFile = data => {
   fs.writeFile('./dist/index.html', data, err => {
 
